@@ -1,0 +1,16 @@
+{
+  "name": "mysql-restore-from-xml",
+  "version": "0.0.0",
+  "description": "Converts MySQL dump XML to SQL",
+  "main": "lib/restore.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Johan Öbrink <johan.obrink@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "mysql": "^2.12.0",
+    "xml-streamer": "^0.1.8",
+    "xml2js": "^0.4.17"
+  }
+}
